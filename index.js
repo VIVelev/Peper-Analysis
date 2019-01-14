@@ -8,10 +8,6 @@ const io = require('socket.io')(http);
 const fs = require('fs');
 const inside = require('point-in-geopolygon');
 const path = require('path');
-const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
 const spawn = require("child_process").spawn;
 let pathToPython = '';
 
