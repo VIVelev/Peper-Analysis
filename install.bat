@@ -1,0 +1,1 @@
+pipenv run python -c 'import nltk; nltk.download("stopwords"); nltk.download("punct"); nltk.download("wordnet");'
