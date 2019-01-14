@@ -39,7 +39,7 @@ Of course you will need to download the Python programming language. You can do 
     ```bash
     pipenv --venv
     ```
-This will return a path, if you are on ***Mac OSX / Linux*** add `/bin/python`, if you are on ***Windows*** add `something` to this path and this whole string pass to `node index.js`.
+This will return a path, if you are on ***Mac OSX / Linux*** add `/bin/python`, if you are on ***Windows*** add `\\Scripts\\python` to this path and this whole string pass to `node index.js`.
 
 * **For a shortcut you can try running this**:
     <br>***Mac OSX / Linux***:
