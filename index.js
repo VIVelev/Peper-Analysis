@@ -8,7 +8,7 @@ const io = require('socket.io')(http);
 const fs = require('fs');
 const inside = require('point-in-geopolygon');
 const path = require('path');
-const spawn = require("child_process").spawn;
+const spawn = require('child_process').spawn;
 let pathToPython = '';
 
 
@@ -30,7 +30,7 @@ io.on('connection', function(socket) {
     });
 
     socket.on('request_analysis', (string)=>{
-        var process = spawn(pathToPython, [path.join(__dirname, "./data-analysis/search.py"), string]);
+        var process = spawn(pathToPython, [path.join(__dirname, './data-analysis/search.py'), string]);
         let input = '';
 
         process.on('close', (code) => {
