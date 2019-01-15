@@ -73,10 +73,6 @@ This will return a path, if you are on ***Mac OSX / Linux*** add `/bin/python`, 
 
 * [Node.js](https://nodejs.org/en/) - The back-end framework used
 
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Authors
 
 * **Victor Velev** - *Initial work* - [VIVelev](https://github.com/VIVelev)
