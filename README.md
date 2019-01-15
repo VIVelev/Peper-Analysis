@@ -71,7 +71,12 @@ This will return a path, if you are on ***Mac OSX / Linux*** add `/bin/python`, 
 
 ## Built With
 
-* [Node.js](https://nodejs.org/en/) - The back-end framework used
+* [Node.js](https://nodejs.org/en/) - JavaScript runtime built on Chrome's V8 JavaScript engine
+* [NumPy](http://www.numpy.org/) - Fundamental package for scientific computing with Python
+* [Pandas](https://pandas.pydata.org/) - Python Data Analysis Library
+* [NLTK](https://www.nltk.org/) - Natural Language Toolkit
+* [TextBlob](https://textblob.readthedocs.io/en/dev/) - Simplified Text Processing
+* [Gensim](https://radimrehurek.com/gensim/) - Topic modelling for humans
 
 ## Authors
 
