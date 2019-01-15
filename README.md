@@ -63,7 +63,7 @@ This will return a path, if you are on ***Mac OSX / Linux*** add `/bin/python`, 
 
     ***Windows***:
     ```bash
-    node index.js $(pipenv --venv)something
+    node index.js $(pipenv --venv)\\Scripts\\python
     ```
 
 ## Built With
